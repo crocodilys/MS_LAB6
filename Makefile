@@ -1,4 +1,4 @@
-obj-m := lab06.o 
+obj-m := lab06_dev.o 
 
 KDIR  := /lib/modules/$(shell uname -r)/build
 PWD   := $(shell pwd)
